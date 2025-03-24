@@ -16,8 +16,6 @@ import Loader from '@components/Loader/Loader';
 import { BASE_TITLE, CATALOG_PAGE_TITLE } from '@constants/pages';
 
 
-
-
 const CatalogPage = () => {
   const dispatch = useDispatch();
   const {
@@ -51,7 +49,15 @@ const CatalogPage = () => {
   return (
     <>
       <Helmet>
-        <title>{BASE_TITLE} - {CATALOG_PAGE_TITLE}</title>
+        <title>{CATALOG_PAGE_TITLE} | {BASE_TITLE}</title>
+        <meta
+          name="description"
+          content="Explore our wide selection of camper vans. Filter by features, location, and price to find your perfect travel companion."
+        />
+        <meta
+          name="keywords"
+          content="camper van rental, RV catalog, travel trucks, camping vehicles"
+        />
       </Helmet>
 
       <main>

@@ -17,6 +17,7 @@ Before you begin, ensure you have the following installed:
 - React Hot Toast for notifications
 - Modern Normalize for CSS reset
 - ESLint for code formatting
+- React Helmet Async for SEO
 
 ## Getting Started
 
@@ -59,3 +60,34 @@ travel-trucks/
 ├── public/            # Public static files
 └── index.html         # HTML entry point
 ```
+
+## SEO Optimization
+
+The project includes several SEO optimizations:
+
+1. Meta Tags
+   - Each page has specific meta descriptions and titles
+   - OpenGraph tags for better social media sharing
+   - Keywords relevant to camper van rentals
+
+2. Search Engine Optimization
+   - Semantic HTML structure
+   - React Helmet for dynamic meta tag management
+
+3. Performance
+   - Code splitting for faster page loads
+   - Image optimization
+   - Efficient routing with React Router
+
+## Features
+
+- Browse available camper vans
+- View detailed information about each camper
+- Read and view camper reviews
+- Book campers through a form
+- Add/remove campers to favorites
+- Filter campers by various criteria
+- Responsive design
+- Form validation
+- Toast notifications
+- Persistent favorites storage

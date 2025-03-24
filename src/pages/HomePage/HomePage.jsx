@@ -13,7 +13,7 @@ const HomePage = () => {
   return (
     <>
       <Helmet>
-        <title>{BASE_TITLE}</title>
+        <title>{BASE_TITLE} - Camper Van Rentals</title>
       </Helmet>
       <section className={css.hero}>
         <div className={clsx('container', css.container)}>
