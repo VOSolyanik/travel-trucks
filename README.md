@@ -23,7 +23,7 @@ Before you begin, ensure you have the following installed:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/VOSolyanik/travel-trucks
+git clone https://github.com/VOSolyanik/travel-trucks.git
 cd travel-trucks
 ```
 
