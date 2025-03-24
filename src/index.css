@@ -1,0 +1,85 @@
+:root {
+  font-family: "Inter", Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  --color-gray-900: #101828; /* Dark Charcoal */
+  --color-gray-700: #475467; /* Slate Gray */
+  --color-gray-500: #6C717B; /* Steel Gray */
+  --color-red-600: #E44848; /* Crimson Red */
+  --color-red-700: #D84343; /* Deep Red */
+  --color-yellow-500: #FFC531; /* Golden Yellow */
+  --color-gray-300: #DADDE1; /* Light Gray */
+  --color-gray-100: #F2F4F7; /* Soft Gray */
+  --color-gray-50: #F7F7F7; /* Off White */
+  --color-white: #FFFFFF; /* Pure White */
+
+  --main-text-color: var(--color-gray-900);
+  --secondary-text-color: var(--color-gray-700);
+  --gray-color: var(--color-gray-700);
+  --gray-light-color: var(--color-gray-300);
+
+  --primary-bg-color: var(--color-red-600);
+  --primary-text-color: var(--color-white);
+  --primary-active-bg-color: var(--color-red-700);
+
+  --badges-bg-color: var(--color-gray-100);
+  --inputs-bg-color: var(--color-gray-50);
+
+  /* color-scheme: light dark; */
+  color: var(--main-text-color);
+  background-color: var(--color-white);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 0 2rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    padding: 0 3rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    padding: 0 4rem;
+  }
+}

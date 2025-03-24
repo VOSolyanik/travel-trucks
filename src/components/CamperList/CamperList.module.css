@@ -1,0 +1,10 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.emptyState {
+  font-size: 1.5rem;
+  text-align: center;
+}

@@ -1,0 +1,24 @@
+.catalog {
+  display: grid;
+  grid-template-columns: 360px 1fr;
+  gap: 2rem;
+  padding: 3rem 0 2rem;
+}
+
+.sidebar {
+  position: sticky;
+  top: 2rem;
+  height: fit-content;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  overflow: hidden;
+}
+
+.loadMoreWrapper {
+  display: flex;
+  justify-content: center;
+}

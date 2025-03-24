@@ -1,0 +1,21 @@
+.navigation {
+  margin: 0 auto;
+}
+
+.navMenu {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.navLink {
+  display: inline-block;
+  padding: 0.5rem 0;
+  color: var(--main-text-color);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navLinkActive {
+  color: var(--color-red-700);
+}

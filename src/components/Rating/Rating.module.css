@@ -1,0 +1,13 @@
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.active {
+  color: var(--color-yellow-500);
+}
+
+.inactive {
+  color: var(--color-gray-100);
+}

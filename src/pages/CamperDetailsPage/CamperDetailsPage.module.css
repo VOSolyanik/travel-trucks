@@ -1,0 +1,109 @@
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 0 2.25rem;
+}
+
+.title {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--main-text-color);
+}
+
+.info {
+  display: flex;
+  gap: 1rem;
+  color: var(--main-text-color);
+  margin-bottom: 1rem;
+}
+
+.rating,
+.location {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.rating {
+  color: var(--main-text-color);
+}
+
+.star {
+  color: var(--color-yellow-500);
+}
+
+.price {
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3rem;
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+}
+
+.gallery li {
+  overflow: hidden;
+  border-radius: 0.6rem;
+  aspect-ratio: 292/312;
+  box-shadow: 0 0 1px var(--main-text-color);
+}
+
+.galleryImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.description {
+  color: var(--secondary-text-color);
+}
+
+.subNav {
+  display: flex;
+  gap: 2.5rem;
+  border-bottom: 1px solid var(--gray-light-color);
+  margin-bottom: 2.75rem;
+}
+
+.subNavLink {
+  padding: 1.5rem 0;
+  color: var(--main-text-color);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.2;
+  position: relative;
+}
+
+.subNavLink::after {
+  content: '';
+  position: absolute;
+  bottom: -2.5px;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background-color: transparent;
+  transition: background-color 0.2s ease;
+}
+
+.subNavLinkActive::after {
+  background-color: var(--primary-bg-color);
+}
+
+.detailsContent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.subPageContent {
+  padding-right: 0.5rem;
+}
