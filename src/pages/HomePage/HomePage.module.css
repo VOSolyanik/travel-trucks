@@ -7,17 +7,19 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-image: url(/src/assets/images/hero_bg.jpg);
   background-image: image-set(
-    url(/src/assets/images/hero_bg.webp) type('image/webp'),
-    url(/src/assets/images/hero_bg.jpg) type('image/jpg'));
+    url(/src/assets/images/hero_bg.webp) type("image/webp"),
+    url(/src/assets/images/hero_bg.jpg) type("image/jpg"));
   color: var(--color-white);
 }
 
 @media (min-resolution: 192dpi) {
   .hero {
+    background-image: url(/src/assets/images/hero_bg@2x.jpg);
     background-image: image-set(
-      url(/src/assets/images/hero_bg@2x.webp) type('image/webp'),
-      url(/src/assets/images/hero_bg@2x.jpg) type('image/jpg'));
+      url(/src/assets/images/hero_bg@2x.webp) type("image/webp"),
+      url(/src/assets/images/hero_bg@2x.jpg) type("image/jpg"));
   }
 }
 

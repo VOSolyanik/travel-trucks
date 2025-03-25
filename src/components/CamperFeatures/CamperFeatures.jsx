@@ -19,32 +19,32 @@ const CamperFeatures = () => {
 
       <div className={css.section}>
         <h3 className={css.sectionTitle}>Vehicle Details</h3>
-        <div className={css.details}>
-          <div className={css.detailItem}>
+        <ul className={css.details}>
+          <li className={css.detailItem}>
             <span>Form</span>
             <span>{camelToTitleCase(camper.form)}</span>
-          </div>
-          <div className={css.detailItem}>
+          </li>
+          <li className={css.detailItem}>
             <span>Length</span>
             <span>{camper.length}</span>
-          </div>
-          <div className={css.detailItem}>
+          </li>
+          <li className={css.detailItem}>
             <span>Width</span>
             <span>{camper.width}</span>
-          </div>
-          <div className={css.detailItem}>
+          </li>
+          <li className={css.detailItem}>
             <span>Height</span>
             <span>{camper.height}</span>
-          </div>
-          <div className={css.detailItem}>
+          </li>
+          <li className={css.detailItem}>
             <span>Tank</span>
             <span>{camper.tank}</span>
-          </div>
-          <div className={css.detailItem}>
+          </li>
+          <li className={css.detailItem}>
             <span>Consumption</span>
             <span>{camper.consumption}</span>
-          </div>
-        </div>
+          </li>
+        </ul>
       </div>
     </div>
   );

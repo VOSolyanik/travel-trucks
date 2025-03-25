@@ -7,4 +7,5 @@
   background-color: var(--badges-bg-color);
   border-radius: 2rem;
   color: var(--main-text-color);
+  mix-blend-mode: multiply;
 }
